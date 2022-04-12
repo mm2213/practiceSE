@@ -30,7 +30,7 @@ public class OutputPrinter {
 		printWithNewLine("Invalid file given.");
 	}
 
-	private void printWithNewLine(String msg) {
+	public void printWithNewLine(String msg) {
 		// TODO Auto-generated method stub
 		System.out.println(msg);
 	}
